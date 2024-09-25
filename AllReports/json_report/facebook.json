@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-09-25T12:50:07.258Z",
+        "line": 3,
+        "name": "To Validate the Login Functionality as Invalid Username and valid Password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-the-facebook-application;to-validate-the-login-functionality-as-invalid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5759704100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User have to launch the Facebook application through chrome browser",
+            "match": {
+              "location": "StepDefinition.user_have_to_launch_the_Facebook_application_through_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 473382400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User have to enter the invalid username and valid  password",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_the_invalid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136638300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User have to click the login button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20794396300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User have to reach the invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_have_to_reach_the_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the Login Functionality of the Facebook Application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-the-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/elank/Jenkins_Practice/src/test/resources/FeatureFile/Login_Basic.feature",
+    "tags": []
+  }
+]
